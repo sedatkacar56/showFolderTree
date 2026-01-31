@@ -1,0 +1,31 @@
+Folder Tree:
+
+├── analysis
+│   ├── differential_expression
+│   │   ├── results.csv
+│   │   └── plots
+│   │       ├── volcano_plot.png
+│   │       └── heatmap.png
+│   └── quality_control
+│       ├── qc_metrics.txt
+│       └── qc_plots.pdf
+├── data
+│   ├── raw
+│   │   ├── sample1.fastq.gz
+│   │   └── sample2.fastq.gz
+│   └── processed
+│       ├── filtered_counts.csv
+│       └── normalized_data.csv
+├── scripts
+│   ├── preprocessing.py
+│   ├── analysis.R
+│   └── visualization.py
+├── results
+│   ├── figures
+│   │   ├── figure1.png
+│   │   └── figure2.png
+│   └── tables
+│       ├── table1.xlsx
+│       └── table2.csv
+├── README.md
+└── requirements.txt
